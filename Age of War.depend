@@ -1,0 +1,2513 @@
+# depslib dependency file v1.0
+1483087412 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Terrain.hpp"
+	"Base.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Partie.hpp"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+	"Affichage.hpp"
+
+1481780333 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\src\unite.cpp
+	"Unite.h"
+
+1481817188 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\unite.h
+	<iostream>
+	<string>
+	<sstream>
+
+1483087208 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\src\base.cpp
+	"Base.hpp"
+
+1482175884 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\base.h
+
+1482176273 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\terrain.h
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	"Base.h"
+
+1483077636 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1481819119 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\src\fantassin.cpp
+	"Fantassin.h"
+
+1481819110 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\fantassin.h
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.h"
+
+1481817188 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\unite.h
+	<iostream>
+	<string>
+	<sstream>
+
+1481816947 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\fantassin.h
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.h"
+
+1481789047 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\terrain.h
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	"Base.h"
+
+1481784012 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\base.h
+
+1481818606 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\src\archer.cpp
+	"Archer.h"
+
+1481818333 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\archer.h
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.h"
+
+1481819233 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\src\catapulte.cpp
+	"Catapulte.h"
+
+1481819220 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\catapulte.h
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.h"
+
+1483077515 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1482291797 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\joueur.h
+	"Base.h"
+	"Unite.h"
+	"Affichage.h"
+
+1483084417 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1482292052 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\partie.h
+	"Terrain.h"
+	"Joueur.h"
+
+1483087367 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1482359838 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\affichage.h
+	<iostream>
+
+1483087435 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\affichage.hpp
+	<iostream>
+
+1483087189 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+
+1482954868 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1482360895 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+
+1483076994 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	"Base.hpp"
+
+1483087096 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1482361072 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1482361087 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1482940703 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+
+1483084434 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1483083494 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\ia.h
+	<Joueur.hpp>
+
+1483084207 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\player.hpp
+	<Joueur.hpp>
+
+1483084251 c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\include\ia.hpp
+	<Joueur.hpp>
+
+1483084426 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age of war\src\player.cpp
+	"Player.hpp"
+
+1483377955 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Terrain.hpp"
+	"Base.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Partie.hpp"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+	"Affichage.hpp"
+
+1483076996 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	"Base.hpp"
+
+1483373560 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1482360896 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+
+1483087098 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1482361074 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1482361088 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483377461 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+
+1483376477 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+
+1483087436 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\include\affichage.hpp
+	<iostream>
+
+1483373261 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\include\player.hpp
+	<Joueur.hpp>
+
+1483373260 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\include\ia.hpp
+	<Joueur.hpp>
+
+1483087368 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1481818608 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\src\archer.cpp
+	"Archer.h"
+
+1483087210 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\src\base.cpp
+	"Base.hpp"
+
+1481819234 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\src\catapulte.cpp
+	"Catapulte.h"
+
+1481819120 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\src\fantassin.cpp
+	"Fantassin.h"
+
+1483378380 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1481780334 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\src\unite.cpp
+	"Unite.h"
+
+1483373745 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1483376779 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\src\player.cpp
+	"Player.hpp"
+
+1483378195 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1483378380 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.5\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1483432403 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Terrain.hpp"
+	"Base.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Partie.hpp"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+	"Affichage.hpp"
+
+1483076996 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	"Base.hpp"
+
+1483373560 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1482360896 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+
+1483087098 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1482361074 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1482361088 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483433684 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+
+1483376477 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+
+1483087436 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\include\affichage.hpp
+	<iostream>
+
+1483431855 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\include\player.hpp
+	<Joueur.hpp>
+
+1483432236 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\include\ia.hpp
+	<Joueur.hpp>
+
+1483087368 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1481818608 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\src\archer.cpp
+	"Archer.h"
+
+1483087210 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\src\base.cpp
+	"Base.hpp"
+
+1481819234 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\src\catapulte.cpp
+	"Catapulte.h"
+
+1481819120 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\src\fantassin.cpp
+	"Fantassin.h"
+
+1483373745 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1483432236 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1483433682 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1483376779 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\src\player.cpp
+	"Player.hpp"
+
+1483378380 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1481780334 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.6\age of war\src\unite.cpp
+	"Unite.h"
+
+1483547414 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Terrain.hpp"
+	"Base.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Partie.hpp"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+	"Affichage.hpp"
+	"Console.hpp"
+	"stdafx.h"
+
+1483540862 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	"Base.hpp"
+
+1483540862 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1483547867 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Affichage.hpp"
+
+1483087098 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1482361074 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1482361088 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483544316 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+
+1483543893 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+
+1483433150 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\include\affichage.hpp
+	<iostream>
+
+1483540397 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\include\player.hpp
+	<Joueur.hpp>
+
+1483540397 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\include\ia.hpp
+	<Joueur.hpp>
+
+1483087368 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1481818608 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\src\archer.cpp
+	"Archer.h"
+
+1483474865 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\src\base.cpp
+	"Base.hpp"
+
+1481819234 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\src\catapulte.cpp
+	"Catapulte.h"
+
+1481819120 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\src\fantassin.cpp
+	"Fantassin.h"
+
+1483546657 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1483547612 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1483546531 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1483540458 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\src\player.cpp
+	"Player.hpp"
+
+1483546722 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1483547834 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\src\unite.cpp
+	"Unite.hpp"
+
+1483544520 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\include\console.hpp
+	<string>
+	<sstream>
+	"stdafx.h"
+	"Unite.hpp"
+
+1483545742 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\include\stdafx.h
+	<cstdio>
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+
+1483547841 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\src\console.cpp
+	"Console.hpp"
+
+1483495602 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.7\age of war\src\stdafx.cpp
+	"stdafx.h"
+
+1483673799 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Terrain.hpp"
+	"Base.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Partie.hpp"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+	"Affichage.hpp"
+	"Console.hpp"
+	"stdafx.h"
+
+1483605077 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	"Base.hpp"
+
+1483603893 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1483659461 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Affichage.hpp"
+
+1483600557 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\include\affichage.hpp
+	<iostream>
+
+1483663934 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\include\player.hpp
+	<Joueur.hpp>
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\include\ia.hpp
+	<Joueur.hpp>
+
+1483675197 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\include\console.hpp
+	<string>
+	<sstream>
+	<vector>
+	"stdafx.h"
+	"Unite.hpp"
+
+1483669062 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\include\stdafx.h
+	<cstdio>
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+
+1483600549 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1483548329 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\src\archer.cpp
+	"Archer.hpp"
+
+1483597220 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\src\base.cpp
+	"Base.hpp"
+
+1483548335 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\src\catapulte.cpp
+	"Catapulte.hpp"
+
+1483673418 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\src\console.cpp
+	"Console.hpp"
+
+1483548342 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\src\fantassin.cpp
+	"Fantassin.hpp"
+
+1483548232 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1483599431 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1483548410 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1483548232 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\src\player.cpp
+	"Player.hpp"
+
+1483548232 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\src\stdafx.cpp
+	"stdafx.h"
+
+1483605066 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1483605265 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.10\age-of-warv.10\age of war\src\unite.cpp
+	"Unite.hpp"
+
+1483707610 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Terrain.hpp"
+	"Base.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Partie.hpp"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+	"Affichage.hpp"
+	"Console.hpp"
+	"stdafx.h"
+
+1483605077 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	"Base.hpp"
+
+1483603893 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1483659461 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Affichage.hpp"
+
+1483600557 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\include\affichage.hpp
+	<iostream>
+
+1483663934 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\include\player.hpp
+	<Joueur.hpp>
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\include\ia.hpp
+	<Joueur.hpp>
+
+1483728480 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\include\console.hpp
+	<string>
+	<sstream>
+	<vector>
+	"stdafx.h"
+	"Unite.hpp"
+
+1483716733 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\include\stdafx.h
+	<cstdio>
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+
+1483600549 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1483548329 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\src\archer.cpp
+	"Archer.hpp"
+
+1483597220 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\src\base.cpp
+	"Base.hpp"
+
+1483548335 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\src\catapulte.cpp
+	"Catapulte.hpp"
+
+1483548342 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\src\fantassin.cpp
+	"Fantassin.hpp"
+
+1483548232 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1483599431 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1483548410 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1483548232 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\src\player.cpp
+	"Player.hpp"
+
+1483548232 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\src\stdafx.cpp
+	"stdafx.h"
+
+1483605066 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1483605265 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\src\unite.cpp
+	"Unite.hpp"
+
+1483716625 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.12\age of war\src\console.cpp
+	"Console.hpp"
+
+1483707610 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Terrain.hpp"
+	"Base.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Partie.hpp"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+	"Affichage.hpp"
+	"Console.hpp"
+	"stdafx.h"
+
+1483605077 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	"Base.hpp"
+
+1483603893 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1483659461 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Affichage.hpp"
+
+1483600557 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\include\affichage.hpp
+	<iostream>
+
+1483663934 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\include\player.hpp
+	<Joueur.hpp>
+
+1483548231 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\include\ia.hpp
+	<Joueur.hpp>
+
+1483804734 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\include\console.hpp
+	<string>
+	<sstream>
+	<vector>
+	"stdafx.h"
+	"Unite.hpp"
+
+1483716733 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\include\stdafx.h
+	<cstdio>
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+
+1483600549 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1483548329 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\src\archer.cpp
+	"Archer.hpp"
+
+1483597220 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\src\base.cpp
+	"Base.hpp"
+
+1483548335 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\src\catapulte.cpp
+	"Catapulte.hpp"
+
+1483548342 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\src\fantassin.cpp
+	"Fantassin.hpp"
+
+1483548232 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1483599431 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1483548410 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1483548232 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\src\player.cpp
+	"Player.hpp"
+
+1483548232 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\src\stdafx.cpp
+	"stdafx.h"
+
+1483605066 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1483605265 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.13\age of war\src\unite.cpp
+	"Unite.hpp"
+
+1483835281 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Terrain.hpp"
+	"Base.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Partie.hpp"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+	"Affichage.hpp"
+	"Console.hpp"
+	"stdafx.h"
+
+1483807908 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	"Base.hpp"
+
+1483603894 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1483835260 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+	"Affichage.hpp"
+
+1483600558 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\include\affichage.hpp
+	<iostream>
+
+1483663936 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483548232 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483548232 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483548232 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+
+1483835118 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"stdafx.h"
+
+1483548232 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\include\player.hpp
+	<Joueur.hpp>
+
+1483548232 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\include\ia.hpp
+	<Joueur.hpp>
+
+1483804736 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\include\console.hpp
+	<string>
+	<sstream>
+	<vector>
+	"stdafx.h"
+	"Unite.hpp"
+
+1483716734 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\include\stdafx.h
+	<cstdio>
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+
+1483600550 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1483548330 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\src\archer.cpp
+	"Archer.hpp"
+
+1483597222 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\src\base.cpp
+	"Base.hpp"
+
+1483548336 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\src\catapulte.cpp
+	"Catapulte.hpp"
+
+1483807598 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\src\console.cpp
+	"Console.hpp"
+
+1483548344 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\src\fantassin.cpp
+	"Fantassin.hpp"
+
+1483548234 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1483835379 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1483808255 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1483548234 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\src\player.cpp
+	"Player.hpp"
+
+1483548234 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\src\stdafx.cpp
+	"stdafx.h"
+
+1483605068 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1483835334 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.13\age-of-warv.13\age of war\src\unite.cpp
+	"Unite.hpp"
+
+1483925934 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Terrain.hpp"
+	"Base.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Partie.hpp"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+	"Affichage.hpp"
+	"Console.hpp"
+	"stdafx.h"
+
+1483925945 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	"Base.hpp"
+
+1483925944 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1483926618 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+	"Affichage.hpp"
+
+1483925944 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\include\affichage.hpp
+	<iostream>
+
+1483925945 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483925944 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483925945 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483925945 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+
+1483925945 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"stdafx.h"
+
+1483925945 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\include\stdafx.h
+	<cstdio>
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+
+1483925945 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\include\player.hpp
+	<Joueur.hpp>
+
+1483925945 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\include\ia.hpp
+	<Joueur.hpp>
+
+1483925945 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\include\console.hpp
+	<string>
+	<sstream>
+	<vector>
+	"stdafx.h"
+	"Unite.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\src\player.cpp
+	"Player.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\src\stdafx.cpp
+	"stdafx.h"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\src\unite.cpp
+	"Unite.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\src\archer.cpp
+	"Archer.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\src\base.cpp
+	"Base.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\src\catapulte.cpp
+	"Catapulte.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\src\console.cpp
+	"Console.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\src\fantassin.cpp
+	"Fantassin.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1483926681 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age-of-warv.14\age-of-warv.13\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1483925944 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\include\affichage.hpp
+	<iostream>
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\src\archer.cpp
+	"Archer.hpp"
+
+1483925944 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483959647 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+	"Affichage.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\src\base.cpp
+	"Base.hpp"
+
+1483925944 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\src\catapulte.cpp
+	"Catapulte.hpp"
+
+1483925945 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483959352 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\src\console.cpp
+	"Console.hpp"
+
+1483945662 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\include\console.hpp
+	<string>
+	<sstream>
+	<vector>
+	"stdafx.h"
+	"Unite.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	<windows.h>
+	<conio.h>
+
+1483952349 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\include\stdafx.h
+	<cstdio>
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\src\fantassin.cpp
+	"Fantassin.hpp"
+
+1483925945 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1483925945 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\include\ia.hpp
+	<Joueur.hpp>
+
+1483925945 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"stdafx.h"
+
+1483925945 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	"Base.hpp"
+
+1483926681 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1483925945 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\src\player.cpp
+	"Player.hpp"
+
+1483925945 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\include\player.hpp
+	<Joueur.hpp>
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\src\stdafx.cpp
+	"stdafx.h"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1483927059 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\src\unite.cpp
+	"Unite.hpp"
+
+1483947096 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.14\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Terrain.hpp"
+	"Base.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Partie.hpp"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+	"Affichage.hpp"
+	"Console.hpp"
+	"stdafx.h"
+
+1483970235 source:c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Terrain.hpp"
+	"Base.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Partie.hpp"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+	"Affichage.hpp"
+	"Console.hpp"
+	"stdafx.h"
+
+1483971936 c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	"Base.hpp"
+
+1483925946 c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1483959648 c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+	"Affichage.hpp"
+
+1483925946 c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\include\affichage.hpp
+	<iostream>
+
+1483925946 c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483925946 c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483925946 c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483925946 c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+
+1483970563 c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"stdafx.h"
+
+1483970054 c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\include\stdafx.h
+	<cstdio>
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+
+1483970572 c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\include\player.hpp
+	<Joueur.hpp>
+
+1483972084 c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\include\ia.hpp
+	<Joueur.hpp>
+	"stdafx.h"
+
+1483969648 c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\include\console.hpp
+	<string>
+	<sstream>
+	<vector>
+	"stdafx.h"
+	"Unite.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	<windows.h>
+	<conio.h>
+
+1483925948 source:c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1483925948 source:c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\src\archer.cpp
+	"Archer.hpp"
+
+1483971174 source:c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\src\base.cpp
+	"Base.hpp"
+
+1483925948 source:c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\src\catapulte.cpp
+	"Catapulte.hpp"
+
+1483970192 source:c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\src\console.cpp
+	"Console.hpp"
+
+1483925948 source:c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\src\fantassin.cpp
+	"Fantassin.hpp"
+
+1483972164 source:c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1483970563 source:c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1483970765 source:c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1483972519 source:c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\src\player.cpp
+	"Player.hpp"
+
+1483925948 source:c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\src\stdafx.cpp
+	"stdafx.h"
+
+1483970857 source:c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1483972889 source:c:\users\atissie\desktop\age-of-warv.15\age-of-warv.15\age of war\src\unite.cpp
+	"Unite.hpp"
+
+1484034698 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Terrain.hpp"
+	"Base.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Partie.hpp"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+	"Affichage.hpp"
+	"Console.hpp"
+	"stdafx.h"
+
+1483986133 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	"Base.hpp"
+
+1484034048 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1484000380 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+	"Affichage.hpp"
+
+1483925946 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\include\affichage.hpp
+	<iostream>
+
+1483925946 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483925946 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1483925946 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484034686 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+
+1484034665 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"stdafx.h"
+
+1483970056 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\include\stdafx.h
+	<cstdio>
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+
+1484034553 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\include\player.hpp
+	<Joueur.hpp>
+
+1484034033 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\include\ia.hpp
+	<Joueur.hpp>
+	"stdafx.h"
+
+1483969650 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\include\console.hpp
+	<string>
+	<sstream>
+	<vector>
+	"stdafx.h"
+	"Unite.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	<windows.h>
+	<conio.h>
+
+1483925948 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1483925948 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\src\archer.cpp
+	"Archer.hpp"
+
+1484034798 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\src\base.cpp
+	"Base.hpp"
+
+1483925948 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\src\catapulte.cpp
+	"Catapulte.hpp"
+
+1483985498 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\src\console.cpp
+	"Console.hpp"
+
+1483925948 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\src\fantassin.cpp
+	"Fantassin.hpp"
+
+1484034798 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1484034650 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1484034686 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1484034271 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\src\player.cpp
+	"Player.hpp"
+
+1483925948 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\src\stdafx.cpp
+	"stdafx.h"
+
+1483986441 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1484142323 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.15\age-of-warv.15\age-of-warv.15\age of war\src\unite.cpp
+	"Unite.hpp"
+
+1484185262 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Affichage.hpp"
+	"Partie.hpp"
+
+1484147563 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	"Base.hpp"
+
+1484147562 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1484183213 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+	"Affichage.hpp"
+
+1484147561 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\include\affichage.hpp
+	<iostream>
+
+1484183378 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484147562 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484147562 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484161267 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Console.hpp"
+	"stdafx.h"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+
+1484147563 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"stdafx.h"
+
+1484184263 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\include\stdafx.h
+	<cstdio>
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+
+1484147563 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\include\player.hpp
+	<Joueur.hpp>
+
+1484147562 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\include\ia.hpp
+	<Joueur.hpp>
+	"stdafx.h"
+
+1484162939 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\include\console.hpp
+	<string>
+	<sstream>
+	<vector>
+	"stdafx.h"
+	"Unite.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+
+1484147566 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1484147566 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\src\archer.cpp
+	"Archer.hpp"
+
+1484147566 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\src\base.cpp
+	"Base.hpp"
+
+1484147566 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\src\catapulte.cpp
+	"Catapulte.hpp"
+
+1484147566 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\src\fantassin.cpp
+	"Fantassin.hpp"
+
+1484160336 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1484182476 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1484147567 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\src\player.cpp
+	"Player.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\src\stdafx.cpp
+	"stdafx.h"
+
+1484163365 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1484147567 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\src\unite.cpp
+	"Unite.hpp"
+
+1484185249 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\src\console.cpp
+	"Console.hpp"
+
+1484151713 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.17\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1484655898 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Affichage.hpp"
+	"Partie.hpp"
+
+1484147561 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\include\affichage.hpp
+	<iostream>
+
+1484660718 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Console.hpp"
+	"stdafx.h"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+
+1484147563 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	"Base.hpp"
+
+1484147562 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1484659958 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+	"Affichage.hpp"
+	"stdafx.h"
+
+1484429940 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"stdafx.h"
+
+1484147562 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484183378 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484659966 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484279386 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\include\stdafx.h
+	<cstdio>
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+
+1484278592 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\include\console.hpp
+	<string>
+	<sstream>
+	<vector>
+	<iostream>
+	<fstream>
+	"stdafx.h"
+	"Unite.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+
+1484660832 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\include\player.hpp
+	"Joueur.hpp"
+
+1484660842 c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\include\ia.hpp
+	"Joueur.hpp"
+	"stdafx.h"
+
+1484147566 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1484659736 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\src\archer.cpp
+	"Archer.hpp"
+
+1484279586 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\src\base.cpp
+	"Base.hpp"
+
+1484659846 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\src\catapulte.cpp
+	"Catapulte.hpp"
+
+1484659883 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\src\fantassin.cpp
+	"Fantassin.hpp"
+
+1484151713 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1484429941 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1484660734 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1484147567 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\src\player.cpp
+	"Player.hpp"
+
+1483925946 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\src\stdafx.cpp
+	"stdafx.h"
+
+1484163365 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1484660182 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\src\unite.cpp
+	"Unite.hpp"
+
+1484279147 source:c:\users\madelaine\dropbox\bureau\ecole\syst\age-of-warv.18\age of war\src\console.cpp
+	"Console.hpp"
+
+1484655900 source:c:\users\mmadela\downloads\age-of-warv.20\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Affichage.hpp"
+	"Partie.hpp"
+
+1484147562 c:\users\mmadela\downloads\age-of-warv.20\age of war\include\affichage.hpp
+	<iostream>
+
+1484660720 c:\users\mmadela\downloads\age-of-warv.20\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Console.hpp"
+	"stdafx.h"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+
+1484147564 c:\users\mmadela\downloads\age-of-warv.20\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	"Base.hpp"
+
+1484147564 c:\users\mmadela\downloads\age-of-warv.20\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1484659960 c:\users\mmadela\downloads\age-of-warv.20\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+	"Affichage.hpp"
+	"stdafx.h"
+
+1484279388 c:\users\mmadela\downloads\age-of-warv.20\age of war\include\stdafx.h
+	<cstdio>
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+
+1484429942 c:\users\mmadela\downloads\age-of-warv.20\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"stdafx.h"
+
+1484147564 c:\users\mmadela\downloads\age-of-warv.20\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484183380 c:\users\mmadela\downloads\age-of-warv.20\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484659968 c:\users\mmadela\downloads\age-of-warv.20\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484278594 c:\users\mmadela\downloads\age-of-warv.20\age of war\include\console.hpp
+	<string>
+	<sstream>
+	<vector>
+	<iostream>
+	<fstream>
+	"stdafx.h"
+	"Unite.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+
+1484660834 c:\users\mmadela\downloads\age-of-warv.20\age of war\include\player.hpp
+	"Joueur.hpp"
+
+1484660844 c:\users\mmadela\downloads\age-of-warv.20\age of war\include\ia.hpp
+	"Joueur.hpp"
+	"stdafx.h"
+
+1484147568 source:c:\users\mmadela\downloads\age-of-warv.20\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1484659738 source:c:\users\mmadela\downloads\age-of-warv.20\age of war\src\archer.cpp
+	"Archer.hpp"
+
+1484279588 source:c:\users\mmadela\downloads\age-of-warv.20\age of war\src\base.cpp
+	"Base.hpp"
+
+1484659848 source:c:\users\mmadela\downloads\age-of-warv.20\age of war\src\catapulte.cpp
+	"Catapulte.hpp"
+
+1484279148 source:c:\users\mmadela\downloads\age-of-warv.20\age of war\src\console.cpp
+	"Console.hpp"
+
+1484659884 source:c:\users\mmadela\downloads\age-of-warv.20\age of war\src\fantassin.cpp
+	"Fantassin.hpp"
+
+1484151714 source:c:\users\mmadela\downloads\age-of-warv.20\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1484429942 source:c:\users\mmadela\downloads\age-of-warv.20\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1484660736 source:c:\users\mmadela\downloads\age-of-warv.20\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1484147568 source:c:\users\mmadela\downloads\age-of-warv.20\age of war\src\player.cpp
+	"Player.hpp"
+
+1483925946 source:c:\users\mmadela\downloads\age-of-warv.20\age of war\src\stdafx.cpp
+	"stdafx.h"
+
+1484163366 source:c:\users\mmadela\downloads\age-of-warv.20\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1484660184 source:c:\users\mmadela\downloads\age-of-warv.20\age of war\src\unite.cpp
+	"Unite.hpp"
+
+1484655900 source:c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Affichage.hpp"
+	"Partie.hpp"
+
+1484147562 c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\include\affichage.hpp
+	<iostream>
+
+1484660720 c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Console.hpp"
+	"stdafx.h"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+
+1484147564 c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	"Base.hpp"
+
+1484147564 c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1484659960 c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+	"Affichage.hpp"
+	"stdafx.h"
+
+1484279388 c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\include\stdafx.h
+	<cstdio>
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+
+1484429942 c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"stdafx.h"
+
+1484147564 c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484183380 c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484659968 c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484278594 c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\include\console.hpp
+	<string>
+	<sstream>
+	<vector>
+	<iostream>
+	<fstream>
+	"stdafx.h"
+	"Unite.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+
+1484660834 c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\include\player.hpp
+	"Joueur.hpp"
+
+1484660844 c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\include\ia.hpp
+	"Joueur.hpp"
+	"stdafx.h"
+
+1484147568 source:c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1484659738 source:c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\src\archer.cpp
+	"Archer.hpp"
+
+1484279588 source:c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\src\base.cpp
+	"Base.hpp"
+
+1484279148 source:c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\src\console.cpp
+	"Console.hpp"
+
+1484659884 source:c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\src\fantassin.cpp
+	"Fantassin.hpp"
+
+1484151714 source:c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1484429942 source:c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1484660736 source:c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1484147568 source:c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\src\player.cpp
+	"Player.hpp"
+
+1483925946 source:c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\src\stdafx.cpp
+	"stdafx.h"
+
+1484163366 source:c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1484660184 source:c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\src\unite.cpp
+	"Unite.hpp"
+
+1484764630 source:c:\users\laura\desktop\age-of-warv.20\age-of-warv.20\age of war\src\catapulte.cpp
+	"Catapulte.hpp"
+
+1484655900 source:c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Affichage.hpp"
+	"Partie.hpp"
+
+1484147562 c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\include\affichage.hpp
+	<iostream>
+
+1484660720 c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Console.hpp"
+	"stdafx.h"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+
+1484147564 c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	"Base.hpp"
+
+1484147564 c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1484659960 c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+	"Affichage.hpp"
+	"stdafx.h"
+
+1484279388 c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\include\stdafx.h
+	<cstdio>
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+
+1484429942 c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"stdafx.h"
+
+1484147564 c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484183380 c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484659968 c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484278594 c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\include\console.hpp
+	<string>
+	<sstream>
+	<vector>
+	<iostream>
+	<fstream>
+	"stdafx.h"
+	"Unite.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+
+1484660834 c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\include\player.hpp
+	"Joueur.hpp"
+
+1484660844 c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\include\ia.hpp
+	"Joueur.hpp"
+	"stdafx.h"
+
+1484147568 source:c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1484659738 source:c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\src\archer.cpp
+	"Archer.hpp"
+
+1484279588 source:c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\src\base.cpp
+	"Base.hpp"
+
+1484822072 source:c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\src\catapulte.cpp
+	"Catapulte.hpp"
+
+1484820675 source:c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\src\console.cpp
+	"Console.hpp"
+
+1484659884 source:c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\src\fantassin.cpp
+	"Fantassin.hpp"
+
+1484151714 source:c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1484821392 source:c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1484660736 source:c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1484147568 source:c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\src\player.cpp
+	"Player.hpp"
+
+1483925946 source:c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\src\stdafx.cpp
+	"stdafx.h"
+
+1484163366 source:c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1484821492 source:c:\users\atissie\desktop\age-of-warv.20\age-of-warv.20\age of war\src\unite.cpp
+	"Unite.hpp"
+
+1484655900 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Affichage.hpp"
+	"Partie.hpp"
+
+1484147562 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\include\affichage.hpp
+	<iostream>
+
+1484660720 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Console.hpp"
+	"stdafx.h"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+
+1484147564 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	"Base.hpp"
+
+1484862009 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1484861611 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+	"Affichage.hpp"
+	"stdafx.h"
+
+1484279388 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\include\stdafx.h
+	<cstdio>
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+
+1484429942 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"stdafx.h"
+
+1484147564 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484861723 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484861723 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484278594 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\include\console.hpp
+	<string>
+	<sstream>
+	<vector>
+	<iostream>
+	<fstream>
+	"stdafx.h"
+	"Unite.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+
+1484660834 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\include\player.hpp
+	"Joueur.hpp"
+
+1484660844 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\include\ia.hpp
+	"Joueur.hpp"
+	"stdafx.h"
+
+1484147568 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1484659738 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\src\archer.cpp
+	"Archer.hpp"
+
+1484279588 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\src\base.cpp
+	"Base.hpp"
+
+1484861886 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\src\catapulte.cpp
+	"Catapulte.hpp"
+
+1484820676 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\src\console.cpp
+	"Console.hpp"
+
+1484862009 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\src\fantassin.cpp
+	"Fantassin.hpp"
+
+1484840639 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1484862562 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1484660736 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1484147568 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\src\player.cpp
+	"Player.hpp"
+
+1483925946 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\src\stdafx.cpp
+	"stdafx.h"
+
+1484862458 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
+1484862458 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.20\age-of-warv.20\age-of-warv.20\age of war\src\unite.cpp
+	"Unite.hpp"
+
+1484655900 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\main.cpp
+	<iostream>
+	<fstream>
+	"Affichage.hpp"
+	"Partie.hpp"
+
+1484956539 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\include\affichage.hpp
+	<iostream>
+	<stdlib.h>
+
+1484660720 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\include\partie.hpp
+	"Terrain.hpp"
+	"Joueur.hpp"
+	"Unite.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+	"Console.hpp"
+	"stdafx.h"
+	"Joueur.hpp"
+	"Player.hpp"
+	"Ia.hpp"
+
+1484147564 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\include\terrain.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	"Base.hpp"
+
+1484954348 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\include\base.hpp
+	<iostream>
+	<vector>
+	"Unite.hpp"
+
+1484958385 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\include\unite.hpp
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+	"Affichage.hpp"
+	"stdafx.h"
+
+1484279388 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\include\stdafx.h
+	<cstdio>
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+
+1484429942 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\include\joueur.hpp
+	"Base.hpp"
+	"Unite.hpp"
+	"Archer.hpp"
+	"Fantassin.hpp"
+	"Catapulte.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"stdafx.h"
+
+1484147564 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\include\archer.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484954925 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\include\fantassin.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484958395 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\include\catapulte.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"Unite.hpp"
+
+1484278594 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\include\console.hpp
+	<string>
+	<sstream>
+	<vector>
+	<iostream>
+	<fstream>
+	"stdafx.h"
+	"Unite.hpp"
+	"Affichage.hpp"
+	"Terrain.hpp"
+	"Fantassin.hpp"
+	"Archer.hpp"
+	"Catapulte.hpp"
+
+1484660834 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\include\player.hpp
+	"Joueur.hpp"
+
+1484660844 c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\include\ia.hpp
+	"Joueur.hpp"
+	"stdafx.h"
+
+1484956507 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\src\affichage.cpp
+	"Affichage.hpp"
+
+1484659738 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\src\archer.cpp
+	"Archer.hpp"
+
+1484956337 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\src\base.cpp
+	"Base.hpp"
+
+1484958473 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\src\catapulte.cpp
+	"Catapulte.hpp"
+
+1484820676 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\src\console.cpp
+	"Console.hpp"
+
+1484957475 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\src\fantassin.cpp
+	"Fantassin.hpp"
+
+1484840639 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\src\ia.cpp
+	"Ia.hpp"
+
+1484957475 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\src\joueur.cpp
+	"Joueur.hpp"
+
+1484957586 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\src\partie.cpp
+	"Partie.hpp"
+
+1484147568 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\src\player.cpp
+	"Player.hpp"
+
+1483925946 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\src\stdafx.cpp
+	"stdafx.h"
+
+1484957475 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\src\unite.cpp
+	"Unite.hpp"
+
+1484957642 source:c:\users\alexandre\desktop\polytech 4a\c++\projet\age-of-warv.21\age-of-warv.20\age-of-warv.20\age of war\src\terrain.cpp
+	"Terrain.hpp"
+
