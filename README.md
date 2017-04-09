@@ -1,224 +1,260 @@
-----------------------
-Command Line Arguments
-----------------------
-
-Example:  ./word-count -b -sort SelectionSort -suf < textfile
-
--b | -a | -s
-  (required) Specifies the type of tree for storing (word, count) pair
-  possible trees are Binary search tree, Avl tree, and Splay tree
-
-    -b - Count frequencies using an unbalanced binary search tree 
-    -a - Count frequencies using an AVL tree 
-    -s - Count frequencies using a splay tree 
-
--sort SelectionSort | MergeSort | HeapSort
-  (optional) Specifies the type of sort.  
-  If -sort is omitted, HeapSort is used
-
--suf
-  (optional) Turns on suffix checker
-
--------------------------
-Design Decisions & Issues
--------------------------
-Since we stereotype against english majors, let's avoid writing this in an
-essay format...
-
-Q.  The original BinarySearchTree::Insert() resolves key collosion by
-overwriting the old value with the new value.  How does the modified insert
-functions resolve key collosions?
-
-A.  The modified insert functions resolve key collosions by adding the new
-value to the old value.  For example, if there exists a key K with a value 3,
-and we wanted to insert a key K with value 2, the Insert function would change
-the value to 3+2=5.  For our word-count, every key is inserted with a value 1.
-However, it's easy to see that the insert functions allow different changes to
-be made to the existing key-value tree.
-    Consequently, the + operator must be overloaded for the ValueType.  
+I. File list
+------------
+AVLTNode.cc		AVL tree node (AVLTNode) implementation
+AVLTNode.h		AVLTNode header
+AVLTree.cc		AVL tree (AVLTree) implementation
+AVLTree.h		AVLTree header
+BinarySearchTree.cc	Binary search tree (BinarySearchTree) implementation
+BinarySearchTree.h	BinarySearchTree header
+BSTNode.cc		Binary search tree node (BSTNode) implementation
+BSTNode.h		BSTNode header
+main.cc			driver for word-count
+Makefile		Makefile to build word-count
+MaxHeap.cc		Specialized max binary heap (MaxHeap) implementation
+MaxHeap.h		MaxHeap header
+README			This file
+SplayTree.cc		Splay tree (SplayTree) implementation
+SplayTree.h		SplayTree header
+TemplateInst.cc		Instantiation file for all templated classes
+heapsort.ps             Plot file for heapsort w/ splay tree on 10 files
+quicksort.ps            Plot file for quicksort w/ splay tree on 10 files
+selectionsort.ps        Plot file for selection sort w/ splay tree on 10 files
 
 
-Q.  What is the relationship between the AVLNode class and the BSTNode class?
-
-A.  The AVLNode is-a BSTNode.  Since the AVLTree inherits and uses many
-methods from the BinarySearchTree (which operates on BSTNodes), the nodes used
-by the AVLTree must be compatible.
-    The difference between AVLNode and its ancestor is that each AVLNode
-remembers its height information.   This is because the AVL rotations
-frequently compares the height of its subtrees, and it would be inefficent if
-we had to recursively calculate such info.
+Program can be built using default make arguments.
 
 
 
-Class Hierachy
+II. Design
+----------
+A. Program design
 
-		|-------------------------|             |------------|
-                |     BinarySearchTree    |--has-a----->|   BSTNode  |
-                |-------------------------|             |------------|
-                           ^    ^                           ^  ^
-                          /      \                          |  |
-                       is-a     is-a                        |  |
-                        /          \                        |  |
-                       /           |--------------|         |  |
-                      /            |  SplayTree   |-has-a---|  |
-                     /             |--------------|            |
-                    /                                        is-a 
-                   /                                           |
-    |----------------|                                  |------------|
-    |     AVLTree    |--has-a-------------------------->| AVLNode    |
-    |----------------|                                  |------------|
-   
+1. Style
+Code given by CSE326 staff was treated as though it was written by a team
+member.  Naming conventions of pre-existing code was changed to match the
+team's preferred style for member functions.
 
+2. Collision handling
+It seemed apparent that because we were generalizing through templates, to have
+the result of doing an operation on some key that already existed be hardcoded
+was not in good form.  This is where the collision policy idea came to bear.
+The general principal is that the end-programmer using a tree should be able to
+specify what happens as a result of a collision by supplying a function to
+handle this event.  In case the end-programmer does not know about function
+pointers, or has no desire to specialize the trees by supplying a collision
+function, a default must be set up.  This directly translates to the
+unparameterized constructor (default), the parameterized constructor (with
+collision function) and the setCollisionPolicy function (in case they need to
+change).
 
-
-Q.  There is no SplayNode class.  Why does SplayTree use BSTNodes?
-
-A.  The SplayTree class uses BSTNode, while the AVLTree uses AVLNode. The idea
-is that AVLTree needs to keep track of the height information. On the other
-hand, SplayTree doesn't need to have height information. This is very similar
-to BSTNode class, so there's no need to make a SplayNode class.
-
-
-Q.  What are the similarities and differences between AVLTree rotation methods
-and SplayTree rotation methods?  Why are they not methods of BinarySearchTree
-class or the node classes?
-
-A.  They are basically the same. However, for the AVLTree rotations, they need
-to update the height information while the SplayTree's methods don't. These
-methods could have been methods of BinarySearchTree, so that AVLTree and
-SplayTree can inherit them; however, BST doesn't use rotation at all. We then
-came to the decision of making each of the AVLTree, SplayTree different
-rotation methods.
+3. bool <function>(param& , param&) signatures
+We wanted to have a way to notify the user of invalid find operations.  Since
+the code is templatized we dont know what type to return for the function.  Thus
+the bool return.  Essentially, if the operation is successful, return true and
+modify the appropriate parameter that was passed in by reference.  If the
+operation fails, return false, and leave the parameter alone.  With this design
+decision made, other similar functions needed to have similar feels to maintain
+a consistant API.
 
 
-Q.  The Heap class does not allocate any memory--it shares the data.  Why?
+B. AVL Tree
 
-A.  It makes it faster =)
+1. Insertion
+An interative insert function was written to give better performance because
+recursive functions has to allocate/deallocate multiple stack frames.
 
-
-Q.  Sort() is currently a method of HeapSort.  The alternative is to define an
-external HeapSort() function that is a friend of the Heap class--HeapSort()
-still needs to call the PercDown() function.  Why did we choose to make
-HeapSort a function inside the Heap class?
-
-A.  We think that our special(ized) Heap should know how to sort itself. :)
+2. AVLTNode
+Because an AVL tree is a self-balancing tree, the node structure needs to be
+extended to handle height information.
 
 
------------------------
-Word Frequency Analysis
------------------------
+C. Splay Tree
 
-These were the steps to the process:
-    1 ) run word-count on each essay
-    2 ) record the frequency for the top 28 most frequent words and
-	take a subtotal for each (this will be the total number of
-	'relevant' words in each literature)
-    3 ) isolate the words that made it to top 7 (there were 10), and
-	take their percentage with respect to the subtotals
-    4 ) anaylze by comparing the percentages
+1. Iteration vs. Recursion
+Iteration was chosen specifically for code reuse purposes. The general algorithm
+for any splay tree operation was to perform the operation then splay at that
+particular node. Using the provided functions from the binary search tree code
+allowed finding a particular node easy. Then once found, it was a matter of
+simply splaying it to the root (while its not the root, splay it). The specific
+algorithm for inserting was taken directly from the BST code, with only small
+modifications for splaying and personal preferences on handling returns (try to
+have return keyword in only one place).  
 
-Of the 10 words to anaylze, words not used at predictable frequencies by Sir
-Francis Bacon (is, in, you) were ignored.  That left 6 words that are used
-at predictable frequencies by Bacon (of, the, and, that, to, a), and 1 word
-that is not used significantly by Bacon (I).  Two of the 6 words used
-frequently and predictably by Bacon (to, a) were used just as frequent
-and predictable in Hamlet and All's Well that Ends Well.  On the other hand,
-the 4 remaining words (of, the, and, that), which also happens to be the words
-used the most frequent by Bacon, are used at only 1/2 to 2/3 the frequency by
-the author of Hamlet and All's Well that Ends Well.  The minor similarities
-hardly make up for the major differeces.  Based on the above analysis, we 
-conclude that Bacon wrote neither of Shakespeare's plays.
-	
+2. Small functions
+They are easier to test, easier to code, easier to read,and definitely easier to
+understand. The general concept is to minimize the syntax baggage for public
+interface functions, letting them act as drivers, and have protected functions
+do the gruntwork.
 
----------
-Profiling
----------
+3. zig, zigZig, zigZag
+Named after the operations that we discussed in class, these are the driver
+functions for rotation.  Their names attempt to describe the general pattern
+(although each describes two different symmetrical patterns) of a
+node-parent-grandparent relationship.  In each function, there are calls to the
+appropriate hanging function to simulate the rotation (see 5 for more
+information).  Because of the binary ordering properties of a splay tree, each
+function could make a set of assumptions on the data as to how to rotate, or
+hang parent nodes.
 
-Our expected performance bottlenecks for the word-count program are...
-	+ the Splay operation for SplayTree
-	+ the insertHelp function for AVL, and
-	+ the PercolateDown operation for Heap
-We chose these to be the bottlenecks because we assumed the function call
-frequencies and costs. However, it turned out that some of these are not huge
-bottlenecks at all. For example, Splay funtion doesn't take as much time as we
-thought.  Words that are inserted frequently don't take so much rotations
-because they are already close to the root.
+4. hangPLeft, hangPRight 
+The heart of rotation, these functions perform the basic operation of "hanging"
+a parent (P) off of its child in a function name specified direction.  They
+handle all of the pointer manipulation that maintains proper tree structure.
+Although synonymous with rotation to some degree, it was felt that "hanging" and
+direction gave a more complete and accurate description of what the function was
+doing compared to "rotating".  Specifically, a rotation is nothing more than
+hanging a parent off of its child, and a double rotation is nothing more than a
+strictly ordered coupling of these hang operations.
 
 
-  %   cumulative   self              self     total           
- time   seconds   seconds    calls  ns/call  ns/call  name    
+D. Binary Heap (MaxHeap)
 
-  1.05      1.55     0.02                             SplayTree<>::Splay()
-  4.26      0.45     0.10	                      AVLTree<>::insertHelp()
-  1.28      1.76     0.03                             Heap::percDown()
-
-
-The gprof results show that, in general standard I/O operations takes up most 
-of the runtime:
+1. Specialization
+Specializations were made to the binary heap.  This includes the omission of an
+insert() function, no generic node type for the array, and making it a max heap.
+Max heap was the most logical choice for this assignment because this assignment
+dealt with word frequency.
 
 
-index % time    self  children    called     name
-[2]     24.3    0.05    0.52   45429         next_token()
-[3]     20.0    0.05    0.42                 operator<<()
+2. Implementation
+The MaxHeap was implemented using parallel arrays, one each for words and
+frequency.  buildHeap() was implemented using Floyd's algorithm, which runs in
+O(n).
 
 
-Even though each word is only read/printed once, we think the cause for I/O
-as a bottleneck is its huge constant overhead (which much exceeds the log n
-tree operations)
-
-For specific choice of trees and input, namely bst tree with word.txt as
-input, the biggest bottleneck was string operations and FindNode() function. 
-The cause is that the pre-sorted words created an unbalanced binary search
-tree, requiring a complete traversal of a linked-list-like data structure
-everytime a word is inserted.  At each node visited during the traversal,
-FindNode compares the string keys.
+3. heapSort()
+This was not implemented as a member function of the MaxHeap class.  The basic
+algorithm for this function is to print the maximum value in the heap and then
+delete the maximum value.  The deletion will also call percolateDown() on the
+new root.  The printMax() method used in heapSort() is the main bottleneck of
+this algorithm due to the calls to the system I/O.
 
 
-index % time    self  children    called     name
-                                                 <spontaneous>
-[1]     75.6  167.51  533.04                 std::string::compare()
-               99.37  235.36 3408496094/3408541521     std::string::size()
-               35.05   81.63 1704248047/1704293468     std::string::data() 
-               81.63    0.00 1704248047/2523092351     std::string::_M_data()
+
+III. Analysis
+-------------
+The text of both authors, Bacon and Shakespeare, show a predominance of the
+words "the," "of," and "and."  In Bacon's "The Essays" and "The New Atlantis,"
+these common words are occurring approximately 12.4% and 14.3% of the time,
+respectively.  In Shakespeare's "Hamlet" and "All's Well That Ends Well," these
+words occur approximately 6.86% and 6.56%, respectively.  Based on this
+evidence, we conclude that Bacon did not write Shakespeare's works.
+
+Take that, you conspiracy theorists.
 
 
-Another significant operation which we overlooked (for the AVLTree) is the
-UpdateHeight function (which actually took 3.8 percent of the run time).
 
-  %   cumulative   self              self     total           
- time   seconds   seconds    calls  ns/call  ns/call  name    
-  3.83      0.54     0.09                             AVLTree<>::updateHeight()
+IV. Expected Bottlenecks
+------------------------
+A. Binary Search Tree
+
+1. insert()/findNode()
+It was hard to separate these two functions because insert() relies on
+findNode() as a part of its algorithm.  This takes the longest in the BST
+because it has no balancing properties.  In the case of this sorted list, it is
+essentially a doubly-linked list with O(n) running time.
 
 
---------------------
-Algorithmic Analysis
---------------------
+2. getDataAsArray()/recursiveCopy()
+Stack frame allocation/deallocation from recursiveCopy() kills the performance
+of these functions.
 
-From our "SelectionSortSort vs. HeapSort" plot, we can see that when N is greater than
-8000, selectionsort function grows faster than heapsort function. This confroms our knowledge
-that heap sort has better performance than selecion sort in terms of time.
 
-We know that both mergesort(f) and heapsort(g)  have O(n logn) runing time.
-In our "MergeSort vs. HeapSort" plot, two lines are parallel to each other most of the time.
-This shows that f/g = constant, which means that the runing time of the two algorithms are different
-by a constant factor.
+B. AVL Tree
 
+
+1. insert()/findNode()
+This needs to call findNode() from the BinarySearchTree class, which takes
+O(log n).
+
+
+C. Splay Tree
+
+
+1. insert()
+Similar to the AVL Tree, this needs to call findNode() from the BinarySearchTree
+class, which takes O(log n).
+
+2. splay()
+This has to be called every time.  Although this is a constant time operation
+for sorted input, the total running time will be linearly proportional to the
+amount of data.
+
+
+3. hangPRight()
+This again is called every time.  It is interesting to note that this was called
+twice as many times as insert(), though only one rotation is done per insert.
+
+
+
+V. Real Bottlenecks
+-------------------
+A. Data weirdness
+
+1. findNode()/std::min()
+When looking at the data for the BinarySearchTree, findNode() was found to
+take approximately 85% of the running time with approximately 45,000 calls.
+However, std::min() makes approximately 231,000,000,000 calls but only takes
+15.5% of the running time.  We believe the data is skewed/inaccurate because of
+these findings.
+
+
+B. Binary Search Tree
+
+1. insert()/findNode()
+As expected, these two functions took most of the processing time.
+
+2. getDataAsArray()/recursiveCopy()
+Again, as expected, these algorithms took a long time to run, although only
+one call was made to getDataAsArray().
+
+
+C. AVL Tree
+
+1. insert()
+This took the longest of the AVLTree functions at approximately 6.14%.
+
+
+D. Splay Tree
+
+1. insert()
+Total processing time was approximately 2.11%.  
+
+
+2. splay()
+Total processing time was also approximately 2.11%.
+
+
+3. hangPRight()
+This also took approximately 2.11%.  However, it is interesting to note that
+twice as many hangPRight() calls were made compared to splay().
+
+
+
+VI. Sorting Algorithm Analysis
 ------------------------------
-Word Stemming and Punctuations
-------------------------------
- For the punctuation part, we use the built in function "ispunct(c)" to check if 
-the character is a punctuation or a character. If it is a punctuation, then 
-just ignore (treat it like a space). However, due to the nature of 
-the ispunct(c) function - it considers " ' " and " - " as
-punctuations - there are chances for the side effects happen: "I'd" will be read as 2 
-different words: "I" and "d", same as "he's" becomes "he" and "s". The other case can 
-be "ice-cream" becomes "ice" and "cream". Therefore, we came to the decision of 
-using one of our own functions--ispunctuation(c)--to eliminate the case 's and 'd, 
-and '-'. This function will call ispunct(c) if c is not the ' and -. 
 
- For the word-stemming part, two stemming kinds are taken care: 
-words end with -s and with -ly. Due to our language skill limitations,
-we cannot check all the cases and all the exceptions. We have tried our best to check 
-all of the cases that we think of. Also, since " 'd ", " 's " is in the scope above,
-we remove them as well. For this option, one needs to add "-suf" in the command line as
-mentioned above.
+1. HeapSort - Heapsort normally runs in N log N for best, worst and average case
+   It is thus reasonably efficient for binary comparisons. It should on average run
+   in parallel with quicksort.
+
+2. Selection Sort- Selection Sort is supposed to run in N^2 time for worst and best
+   case scenario, and thus should be the worst of the three algorithms, except for
+   extremely aberrant input.
+
+3. QuickSort- Quicksort should run in N log N for best and average case scenarios.
+   Again, it is reasonably efficient on binary comparisons and should be running
+   equally well as heapsort.
+
+
+In reality, heapsort is clearly the most efficient on our particular data set. We
+speculate that the reason it outperforms quicksort for all the inputs is that
+quicksort is not running at average time - our input is a poor represenatation of
+average input for quicksort. Specifically, the input is very dense, so that many
+of the different items have the same value, and thus a lot of swapping must occur,
+slowing a normally fast algorithm down. It still is not obviously enough to force
+quicksort to run at *worst* case time, as it still better than selection sort.
+Essentially, heapsort is less affected by our semi-aberrant data than quicksort,
+and selection sort is pretty bad for large data sets to begin with.
+
+(See plots for reference)
